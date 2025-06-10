@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aryan Jha</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #0d0d0d;
+            font-family: 'Arial', sans-serif;
+        }
+        .card {
+            width: 300px;
+            padding: 20px;
+            background: #1a1a1a;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(255, 0, 255, 0.5);
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 40px rgba(0, 255, 255, 0.8);
+        }
+        .name {
+            color: #fff;
+            font-size: 28px;
+            text-shadow: 0 0 10px #00ffff;
+        }
+        .bio {
+            color: #ccc;
+            font-size: 16px;
+            margin: 10px 0;
+        }
+        .skills {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin: 15px 0;
+            flex-wrap: wrap;
+        }
+        .skill {
+            background: #333;
+            padding: 5px 10px;
+            border-radius: 20px;
+            color: #00ffff;
+            font-size: 14px;
+            box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+        }
+        .social {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 15px;
+        }
+        .social a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 20px;
+            transition: color 0.3s, transform 0.3s;
+            display: flex;
+            align-items: center;
+        }
+        .social a:hover {
+            color: #ff00ff;
+            transform: scale(1.2);
+        }
+        .social i {
+            margin-right: 5px;
+        }
+    </style>
+    <!-- Font Awesome CDN for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="card">
+        <h1 class="name">Aryan Jha</h1>
+        <p class="bio">Developer | AI Enthusiast | Data Analyst</p>
+        <div class="skills">
+            <span class="skill">Python</span>
+            <span class="skill">C++</span>
+            <span class="skill">DSA</span>
+            <span class="skill">Object-Oriented</span>
+            <span class="skill">AI-ML</span>
+            <span class="skill">Flask</span>
+            <span class="skill">SQL</span>
+        </div>
+        <div class="social">
+            <a href="https://github.com/Aryannn2412">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="https://linkedin.com/in/aryan-jha-984762228">
+                <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+            <a href="https://twitter.com/aryan2412">
+                <i class="fab fa-twitter"></i> Twitter
+            </a>
+        </div>
+    </div>
+</body>
+</html>
